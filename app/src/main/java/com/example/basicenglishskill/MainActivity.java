@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Sentence Button
         Button buttonSentence = findViewById(R.id.buttonSentence);
         buttonSentence.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Vocab Button
         Button buttonVocab = findViewById(R.id.buttonVocab);
         buttonVocab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Short Story Button
+
         Button buttonShortStory = findViewById(R.id.buttonShortStory);
         buttonShortStory.setOnClickListener(new View.OnClickListener() {
             @Override
