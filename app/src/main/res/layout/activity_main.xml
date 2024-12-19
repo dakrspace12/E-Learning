@@ -7,7 +7,7 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <!-- Sentence Button -->
+
     <Button
         android:id="@+id/buttonSentence"
         android:layout_width="250dp"
@@ -16,7 +16,7 @@
         android:textSize="20sp"
         android:layout_marginBottom="40dp"/>
 
-    <!-- Vocab Button -->
+
     <Button
         android:id="@+id/buttonVocab"
         android:layout_width="250dp"
@@ -25,7 +25,7 @@
         android:textSize="20sp"
         android:layout_marginBottom="40dp"/>
 
-    <!-- Short Story Button -->
+
     <Button
         android:id="@+id/buttonShortStory"
         android:layout_width="250dp"
