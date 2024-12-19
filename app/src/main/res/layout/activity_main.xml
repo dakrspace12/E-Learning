@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Sentence Button -->
+    <Button
+        android:id="@+id/buttonSentence"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Sentence"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Vocab Button -->
+    <Button
+        android:id="@+id/buttonVocab"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="Vocab"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Short Story Button -->
+    <Button
+        android:id="@+id/buttonShortStory"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:textSize="20sp"
+        android:text="Short Story"
+        android:layout_marginBottom="40dp"/>
+</LinearLayout>
