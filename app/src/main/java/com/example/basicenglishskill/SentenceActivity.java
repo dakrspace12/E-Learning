@@ -15,7 +15,7 @@ public class SentenceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sentence2);
+        setContentView(R.layout.activity_sentence);
         Log.d("SentenceActivity", "Activity Loaded Successfully");
         Button buttonBack = findViewById(R.id.buttonBack);
         buttonBack.setOnClickListener(new View.OnClickListener() {
